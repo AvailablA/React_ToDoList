@@ -11,3 +11,91 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main_div
+{
+  width: 100%;
+  height: 100vh;
+  background: cornflowerblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.center_div
+{
+  width: 24%;
+  height: 80vh;
+  background-color: #f4f4f4;
+  box-shadow: 5px 5px 25px -5px black;
+  border-radius: 15px; 
+}
+h1
+{
+  color: white;
+  background: transparent;
+  background-color: blueviolet;
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 25px -6px black;
+}
+
+input{
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  font-weight: 450;
+  width: 56%;
+  border-bottom: 2px solid #b9b4bf;
+  outline: none;
+}
+button
+{
+  min-height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #8566aa;
+  color: #fff;
+  font-size: 40px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 5px 5px 25px -6px black;  
+}
+button:hover
+{
+  background-color: chartreuse;
+}
+.todo_style
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.todo_style .fa-times-circle
+{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8566aa;
+  border-radius: 50%;
+  margin: 0 15px 0 35px;
+  color: aliceblue;
+  box-shadow: 5px 5px 25px -6px black;  
+}
+.todo_style .fa-times-circle:hover
+{
+  background-color: crimson;
+}
+.todo_style .fa-times-circle:hover .list_style
+{
+  background-color: crimson;
+}
